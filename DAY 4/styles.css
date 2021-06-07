@@ -1,0 +1,138 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.outercircle{
+    position: relative;
+    background-color: rgb(192, 188, 188);
+    border-radius: 50%;
+    height: 405px;
+    width: 405px;
+    
+}
+.circle{
+    position: absolute;
+    background-color: #772e11;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0px 0px -200px;
+    
+  }  
+
+.whitecircle{
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    border: 3px solid white;
+    margin: -150px 0px 0px -150px;
+    box-shadow: rgb(188, 189, 190) 3px 3px 6px 0px inset, rgba(176, 178, 180, 0.726) -3px -3px 6px 1px inset;
+}
+
+.second{
+    position: absolute;
+    height: 140px;
+    width: 3px;
+    background-color: rgb(238, 11, 11);
+    top: 50%;
+    left: 51%;
+    transform-origin: 0% 0%;
+    animation: second 60s infinite linear;
+}
+.minute{
+    position: absolute;
+    height: 130px;
+    width: 5px;
+    background-color: black;
+    top: 50%;
+    left: 51%;
+    transform-origin: 0% 0%;
+    animation: second 3600s infinite linear;
+}
+.hour{
+    position: absolute;
+    height: 120px;
+    width: 7px;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0% 0%;
+    animation: second 43200s infinite linear;
+}
+.dot{
+    position: absolute;
+    background-color: #e08f62;
+    border-radius: 50%;
+    height: 14px;
+    width: 14px;
+    top: 51%;
+    left: 53%;
+    margin: -12px 0px 0px -12px;
+}
+.number12{
+    position: absolute;
+    left: 140px;
+    color: black;
+    top: 50% - 145px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.number3{
+    position: absolute;
+    left: 285px;
+    color: black;
+    top: 145px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.number6{
+    position: absolute;
+    left: 145px;
+    color: black;
+    top: 280px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.number9{
+    position: absolute;
+    left: 5px;
+    color: black;
+    top: 145px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@keyframes second {
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes minute {
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes second {
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,38 @@
+body{
+    margin: 40px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-gap: 10px;
+}
+
+.box{
+    width: 90px;
+    height: 20px;
+	background-color: rgb(133, 228, 252);
+	border-radius: 5px;
+    padding: 20px;
+}
+
+.box:hover{
+    background-color: rgb(53, 168, 197);
+}
+
+.booked-box{
+    background-color: rgb(105, 101, 101);
+}
+
+.booked-box:hover{
+    background-color: rgb(80, 77, 77);
+}
+
+.show-text{
+    display: inline-block;
+    flex-direction: row;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 20px;
+    padding: 20px;
+}

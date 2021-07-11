@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.App{
+    height: 500px;
+    width: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    width: 100%;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: rgb(1, 65, 1);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.calorie-card{
+    width:100%
+}

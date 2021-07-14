@@ -1,4 +1,4 @@
-function caloriecard(props){
+function Caloriecard(props){
     let {item, calorie} = props;
     return(
         <div className="container">
@@ -9,4 +9,4 @@ function caloriecard(props){
         </div>
     )
 }
-export default caloriecard;
+export default Caloriecard;

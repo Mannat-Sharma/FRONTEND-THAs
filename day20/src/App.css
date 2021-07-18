@@ -1,0 +1,59 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #E1E5EA;
+}
+.App{
+  height: 500px;
+  width: 400px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  background-color: #E1E5EA;
+}
+.container{
+  width: 91%;
+  margin: 10px;
+  border: 1px solid black;
+  background-color: #A7BBC7;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.calorie-card{
+  width:100%
+}
+h1{
+  text-align: center;
+  color: #DA7F8F;
+}
+
+h3{
+  display: inline-block;
+}
+
+button{
+  float: right;
+  padding: 1%;
+  border-radius: 10%;
+  border: none;
+}
+
+.empty{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 30px;
+  color: #696968;
+}

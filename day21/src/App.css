@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #0A1931;
+}
+
+h1{
+  display: inline-block;
+  color: #FFC947;
+  margin: 1%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+form{
+  display: inline-flex;
+  margin-left: 40%;
+  padding: 1%;
+}
+
+form input{
+  padding: 1%;
+  margin: 1%;
+  border: none;
+  outline: none;
+}
+
+form .add-btn{
+  width: 10rem;
+  margin: 1%;
+  background-color: #FFC947;
+  border: none;
+}
+
+.calorie-card{
+  display: flex;
+  background-color: white;
+  color: #0A1931;
+  margin: 1%;
+  padding: 1%;
+}
+.empty{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  color: gray;
+  font-size:2rem;
+}
+.calorie-card:hover{
+  opacity: 0.8;
+}
+
+.edit-btn, .del-btn, .save-btn{
+  font-weight:bolder;
+  border-radius: 9%;
+  border: none;
+  height: 2rem;
+  width: 5rem;
+  margin-left: 10px;
+}
+.card{
+  display: inline-block;
+}
+.del-btn{
+  color: white;
+  background-color: red;
+}
+
+.edit-btn, .save-btn{
+  background-color: #FFC947;
+}

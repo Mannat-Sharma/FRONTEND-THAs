@@ -13,10 +13,10 @@ function Meme({meme, setMeme}){
             captionUrl+= `&boxes[${index}][text]=${box.text}`;
         });
         fetch(captionUrl).then(res => res.json())
-        .then(data => {
+        .then((data) => {
             setMeme({...meme, url: data.data.url})
-        })
-    }
+        });
+    };
     console.log(meme);
     return <div className="meme">
         <img src={meme.url} alt="" />

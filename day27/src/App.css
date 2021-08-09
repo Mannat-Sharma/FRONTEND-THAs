@@ -1,0 +1,59 @@
+body{
+  background-color: #082032;
+  color: #FF4C29;
+}
+.App {
+  text-align: center;
+  font-display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1{
+  font-size: 4rem;
+  margin: 0;
+}
+input{
+  background-color: #2C394B; 
+  margin: 2rem;
+  border-radius: 5rem;
+  outline: none;
+  border: none;
+  padding: 10px;
+  height: 1rem;
+  width: 20rem;
+  color: white;
+}
+
+button{
+  background-color: #334756;
+  font-size: 1.5rem;
+  height: 2rem;
+  width: 2rem;
+  border-radius:50%;
+  border: none;
+}
+.todo-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  flex-direction: column;
+}
+.todo{
+  color: white;
+  height: 2rem;
+  width: 95%;
+  padding: 1%;
+  margin: 0.5rem;
+  background-color: #334756;
+}
+
+.todo h5{
+  text-align: left;
+  margin-top: 0.5%;
+}
+.todo button{
+  float: right;
+}

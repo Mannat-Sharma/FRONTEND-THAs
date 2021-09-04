@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: cornflowerblue;
+}
+
+h1{
+  color: white;
+  margin: 1rem;
+  font-size: 3rem;
+}
+.todos-container{
+  overflow-y: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 60vw;
+  height: 70vh;
+  border: 1px solid gray;
+  padding: 0.5rem;
+  background-color: white;
+}
+
+.todo-input{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 60%;
+  padding: 0.5rem;
+}
+
+.todo-input input, .todo-input button{
+  height: 5vh;
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: 1px solid gray;
+  outline: none;
+}
+
+.todo-input input{
+  width: 35vw;
+}
+
+.todo-input button{
+  margin: 1rem 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10vw;
+  font-size: 0.8rem;
+  background-color: cornflowerblue;
+  color: white;
+  border: none;
+}
+
+
+.todo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width:55vw;
+  padding: 0 0.5rem;
+  height: 5vh;
+  border: 1px solid gray;
+  text-align: left;
+  margin: 0.5rem;
+}
+
+.fa-trash-alt{
+  background-color: transparent;
+  border: none;
+  font-size: 1.2rem;
+  float: right;
+  color: red;
+}

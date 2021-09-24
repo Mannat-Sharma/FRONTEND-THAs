@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(34, 33, 33);
+}
+
+.App {
+  text-align: center;
+  color: white;
+}
+
+.header{
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1{
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+input, button{
+  margin: 0.5rem;
+  padding: 0.8rem;
+  border-radius: 1rem;
+}
+
+input{
+  height: 2rem;
+  width: 15rem;
+  outline: none;
+  border: 1px solid gray;
+  background-color: white;
+}
+
+.input{
+  display: flex;
+  align-items: center;
+}
+
+button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  height: 2.2rem;
+  width: 2.2rem;
+  background-color: #CAB8FF;
+  color: white;
+  border: none;
+  padding: 0.2rem;
+  border-radius: 50%;
+}
+.notes{
+  display: flex;
+}
+
+.note{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  width: 12vw;
+  min-height: 10rem;
+  background-color: #CAB8FF;
+  word-wrap: break-word;
+  /* padding: 0.5rem; */
+  border-radius: 1rem;
+  margin: 0.5rem;
+}
+
+.note-head{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0;
+  width: 12vw;
+  height: 1.8rem;
+  margin-bottom: 0.5rem;
+  border-radius: 1rem 1rem 0 0;
+  background-color: #dacffd;
+}
+
+.del-btn{
+  background-color: transparent;
+}
+
+.fa-trash-alt{
+  background-color: transparent;
+  font-size: 1rem;
+  color: #9e7ffa;
+}
